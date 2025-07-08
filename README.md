@@ -23,23 +23,19 @@ A modular, end-to-end agent-based research automation system powered by LLMs. Th
 ### 1. Clone the repository
 
 
-git clone https://github.com/your-username/agentic-ai-research.git
-cd agentic-ai-research
+git clone https://github.com/AnishNehete/Deep-Research-using-Open-AI/
+
 2. Install dependencies
 
 pip install -r requirements.txt
 3. Configure environment variables
 Create a .env file in the root directory:
 
-env
-Copy
-Edit
+
 OPENAI_API_KEY=your_openai_key
 SENDGRID_API_KEY=your_sendgrid_key
 4. Launch the app
-bash
-Copy
-Edit
+
 python deep_research.py
 🧠 Agent Architecture
 Agent Name	Purpose
